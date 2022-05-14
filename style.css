@@ -20,7 +20,7 @@ body
  /*  header section starts here*/
 
 header {
-	position: fixed;
+	position: sticky;
 	height: 180px;
 	width: 100%;
 	background: linear-gradient(to right, #c923db, #54a9c4);
@@ -64,3 +64,43 @@ header {
 .header-menu div a {
 	margin: 20px 30px 30px 20px;
 }
+
+/* End of header section */
+
+
+
+/* CSS for Resume page */
+
+.div-resume {
+	position: relative;
+	height: 100%;
+	display: flex;
+}
+
+.resume-download
+{
+	position: relative;
+	margin: 20px;
+	text-align: center;
+}
+
+.resume-download a
+{
+	position: relative;
+	color: black;
+	margin: 10px;
+	padding: 20px;
+}
+.div-resume :nth-child(1) {
+	margin: 10px;
+}
+
+.div-resume :nth-child(2) {
+	margin: 10px;
+}
+
+/* End of resume page */
+
+
+
+
